@@ -45,6 +45,7 @@ public class JpaApplication implements CommandLineRunner {
 		 */
 		
 		logger.info("find All -> {}", personJPARepo.findAll());
+		logger.info("find All -> {}", personJPARepo.findAll());
 	}
 
 }
